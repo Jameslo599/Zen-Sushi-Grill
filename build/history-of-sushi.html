@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Meta Description -->
+  <meta content="" name="description" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles/index.css" />
+
+  <!--Font Styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!--FAVICON-->
+  <link href="images/favicon.ico" rel="icon" />
+  <title>Zen Sushi & Grill</title>
+</head>
+
+<body>
+  <!-- Start of header -->
+  <header class="fixed w-full z-50 bg-white">
+	<nav class="max-w-screen-2xl flex flex-row flex-wrap justify-between my-3 ml-auto mr-auto" role="navigation">
+	  <!-- COMPANY LOGO (SVG) -->
+	   <div class="flex items-center ml-3">
+		<a href="/">
+		  <svg width="295" height="60" viewBox="0 -10 295 50" xmlns="http://www.w3.org/2000/svg">
+			  <image x="-10" y="-10" href="images/Daruma.png" class="w-3/12 h-3/12"/>
+			  <text x="60" y="28" class="text-3xl font-medium">Zen Sushi & Grill</text>
+		  </svg>
+		</a>
+	  
+		<button id="nav_toggle" class="h-10 w-8 inline-block mr-3 ml-3 mt-1 lg:hidden">
+		  <svg class="h-10 w-10 absolute top-0 right-0 mt-6 mr-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>menu-to-close-2</title><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none" stroke="#020202"><g class="nc-interact_menu-close-2-o-32"> <path d="M2 6h28" transform="translate(0 0.00) rotate(0.00 16 6)"></path> <path d="M2 16h28" opacity="1" stroke="#020202"></path> <path d="M2 26h28" transform="translate(0 0) rotate(0 16 26)"></path> </g> <script>!function(){function t(e){var i=e.parentNode;if("svg"!==i.tagName)i=t(i);return i;}function e(t,e,i,n){return 1>(t/=n/2)?i/2*t*t*t*t+e:-i/2*((t-=2)*t*t*t-2)+e}function i(t){this.element=t,this.topLine=this.element.getElementsByTagName("path")[0],this.centerLine=this.element.getElementsByTagName("path")[1],this.bottomLine=this.element.getElementsByTagName("path")[2],this.time={start:null,total:250},this.status={interacted:!1,animating:!1},this.init()}if(!window.requestAnimationFrame){var n=null;window.requestAnimationFrame=function(t,e){var i=(new Date).getTime();n||(n=i);var a=Math.max(0,16-(i-n)),s=window.setTimeout(function(){t(i+a)},a);return n=i+a,s}}i.prototype.init=function(){var t=this;this.element.addEventListener("click",function(){t.status.animating||(t.status.animating=!0,window.requestAnimationFrame(t.triggerAnimation.bind(t)))})},i.prototype.triggerAnimation=function(t){var e=this.getProgress(t),i=this.status.interacted?this.time.total-e:e;this.animateIcon(i),this.checkProgress(e)},i.prototype.getProgress=function(t){return this.time.start||(this.time.start=t),t-this.time.start},i.prototype.checkProgress=function(t){var e=this;this.time.total>t?window.requestAnimationFrame(e.triggerAnimation.bind(e)):(this.status={interacted:!this.status.interacted,animating:!1},this.time.start=null)},i.prototype.animateIcon=function(t){if(t>this.time.total)(t=this.time.total);if(0>t)(t=0);var i=e(Math.min(t,this.time.total/2),0,10,this.time.total/2).toFixed(2),n=e(Math.max(t-this.time.total/2,0),0,45,this.time.total/2).toFixed(2);this.topLine.setAttribute("transform","translate(0 "+i+") rotate("+n+" 16 6)"),this.bottomLine.setAttribute("transform","translate(0 "+-i+") rotate("+-n+" 16 26)");var a=t>this.time.total/2?0:1;this.centerLine.setAttribute("opacity",a)};var a=document.getElementsByClassName("nc-interact_menu-close-2-o-32");if(a)for(var s=0;a.length>s;s++)new i(t(a[s]))}();  
+		  </script></g></svg>
+		</button>
+	  </div>
+	  <div id="nav_content" class="w-full hidden py-8 mr-3 lg:flex lg:w-auto lg:py-0 lg:items-center">
+		<ul class="flex flex-col ml-auto text-md text-black font-semibold lg:flex-row lg:mt-2">
+
+		  <li class="mx-6 w-mc hover:text-red-700 mb-4 lg:mb-0 text-2xl hover:underline"><a href="/menu.html">VIEW MENU</a></li>
+
+		  <li class="mx-6 w-mc hover:text-red-700 mb-4 lg:mb-0 text-2xl hover:underline"><a href="/about.html">ABOUT</a></li>
+
+		  <li class="mx-6 w-mc hover:text-red-700 mb-4 lg:mb-0 text-2xl hover:underline"><a href="/contact.html">CONTACT</a></li>
+		</ul>
+		<a class="inline-block px-6 py-2 font-bold text-sm border-2 rounded-md mt-2 lg:mt-0 text-red-700 border-red-700 ml-6 hover:text-white hover:bg-red-700 text-xl lg:mt-2 bg-white"
+		href="https://www.zensushiandgrillmckinney.com/" target="_blank">ORDER NOW</a>
+	  </div>
+	  </div>
+	</nav>
+  </header>
+
+  <!-- Start of Blog-->
+  <section class="pt-4 lg:pt-12 lg:pb-32">
+    <article>
+
+      <!-- Header section -->
+      <div class="relative overflow-hidden h-1/6 lg:h-130 w-full mb-12 lg:mb-16">
+        <!-- Dark overlay -->
+        <div class="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-30">
+
+        </div>
+        <!-- Header text -->
+        <div class="absolute h-full w-full flex flex-col items-center justify-center mt-8">
+          <div class="text-center lg:mb-2">
+            <span class="uppercase tracking-wider font-semibold text-blue-50 text-sm lg:text-lg">Food</span>
+            <span class="text-blue-50 mx-2 lg:mx-3 font-semibold lg:text-lg">November 11, 2021</span>
+          </div>
+          <h1 class="text-3xl lg:text-5xl font-semibold text-center mx-4 lg:mx-0 text-blue-50">The History of Sushi</h1>
+        </div>
+        <!-- BG image -->
+        <img class="h-full w-full object-contain" src="./images/mackerel.jpg" alt="Mackerel and shrimp print">
+      </div>
+
+      <!-- Blog Article Text -->
+      <div class="max-w-prose mx-6 text-lg lg:text-3xl lg:mx-auto text-black">
+
+        <h2 class="text-xl lg:text-2xl mt-12 mb-4 text-red-800 underline">Big Money for Big Tuna</h2>
+        <!-- Main Article Body-->
+        <p class="mb-4">Sushi is known around the world as a delicious, luxurious but also a relatively expensive cuisine due to the freshness and quality of fish required. This is evident in how much people are willing to pay for the very best tuna in Japan. On January 2019, “Tuna King” Kiyoshi Kimura spent a record $3.1m for a 612 lb bluefin tuna –more than doubling the previous record of $1.4m in 2013. The pursuit of perfection in making sushi embodies the essence of not only Japanese cuisine, but the culture itself.</p>
+        <p class="mb-4">However, many may not be aware of the fact that the origins of sushi neither began in Japan nor as a craft to be perfected.</p>
+        
+        <h2 class="text-xl lg:text-2xl mt-12 mb-4 text-red-800 underline">Early Origins</h2>
+        <p class="mb-4">The earliest recorded history of sushi dates back between 500-300 B.C near the rice paddies along the Mekong River in southern ancient China. The shallow waters of the Mekong created a fertile environment for aquatic life to flourish, which allowed many farmers to obtain bountiful catches. The challenge occurred with the preservation of fish as it would spoil in the humid heat before consumption.</p>
+        <p class="mb-4">Fortunately, with the help of glutinous rice grown in the nearby paddies, farmers were able to create a preservation technique by patting gutted fish with copious amounts of salt and then allowing the fish to dry for a few weeks before removing the salt and packing the bellies with glutinous rice. The fish were then left in big wooden barrels weighed down with a heavy stone. Allowing the fish to ferment from several months to a year activates lacto-fermentation, which converts the sugars in the rice into lactic acid to fight bad bacteria and preserves not only the flavor and texture of the fish, but also the nutritional value. Unfortunately, even though the flavor was intact, the smell was quite repulsive.</p>
+        <p class="mb-4">Over time, this fundamental form of sushi (nare-sushi) began to gain popularity in not only the southern countries of Malaysia, Indonesia and the Philippines, but also the northern provinces of China such as Yunnan, Guanxi and Guizhou. Furthermore, after the Han Chinese conquered the Yeland, Dian and Nanyue tribes in 200 B.C, nare-sushi eventually made its way into central China. Nare-sushi was primarily eaten by lower-class citizens but was eventually favored by the upper-class as well.</p>
+
+        <h2 class="text-xl lg:text-2xl mt-12 mb-4 text-red-800 underline">Japanese Influence</h2>
+        <p class="mb-4">As a result of trade between China and Japan, nare-sushi made its way into Japanese cuisine. The exact period of when this occurred is unclear, but the earliest reference to nare-sushi is in the Yōrō Code, a legal code compiled in 718 by Fujiwara no Fuhito. The Japanese came to the same conclusion as the Chinese regarding nare-sushi: tastes great but smells horrible. Japanese chefs in the early Muromachi period (1338-1573) began experimenting to make sushi more palatable.</p>
+        <p class="mb-4">Eventually, the foul stench was resolved by only fermenting the fish for a few weeks to reduce the amount of acid produced. As a further benefit, the intense, inedible sour flavor of the rice was reduced to a pleasant tartness that could be paired with the fish (han-nare) and not discarded. After the invention of rice vinegar in the 1200’s, acidic flavors and foods such as sunomono (pickled cucumbers), became widely popular and han-nare was no exception.</p>
+
+		<h2 class="text-xl lg:text-2xl mt-12 mb-4 text-red-800 underline">Further Refinement</h2>
+		<p class="mb-4">If the first step was cutting down fermentation, the next step was determining whether it was even necessary. Fermentation was an essential technique in areas abundant with freshwater fish such as the Mekong, but because Japan was surrounded by the ocean and thus had easy access to saltwater fish, the application was not as useful.</p>
+		<p class="mb-4">In the mid-17th century, the Japanese invented the third iteration of sushi known as haya-sushi (fast sushi). Haya-sushi removes fermentation completely and simply seasons the rice with rice vinegar to achieve the same tart flavor. The rice was then packed in a box and topped with cooked or cured fish before being pressed down with a heavy weight. This allowed sushi to be easily transported and enjoyed anywhere. Naturally, different prefectures developed their own styles of haya-sushi to reflect the local ingredients and tastes.</p>
+		<p class="mb-4">Eventually, Japanese chefs determined that pressing the rice was also unnecessary as the whole point of pressing rice was to prevent air from slowing down the process of anaerobic fermentation. Continuing to press the rice over several days only slowed down preparation and prevented chefs from delivering the quick and delicious food that their patrons wanted.</p>
+		<p class="mb-4">As a result, this led to the development of Edo-mae (Tokyo front) style sushi in the early 1800’s. Edo-mae sushi is the prototype of what we know as modern nigiri-sushi because even though this form consisted of cooked/cured fish laid over seasoned rice, the size was two to three times larger than the bite-sized version we know today. The fish was also marinated in vinegar, soy sauce or coated in a thick layer of salt to preserve taste and freshness. The popularity of sushi at this point was astounding, as every hectare in Tokyo was believed to have at least one sushi restaurant. Edo-mae sushi eventually spread to the rest of Japan after the Great Kanto earthquake in 1923 forced several sushi chefs to relocate to other cities.</p>
+
+		<h2 class="text-xl lg:text-2xl mt-12 mb-4 text-red-800 underline">Modern Sushi</h2>
+		<p class="mb-4">Finally, the latest iteration of sushi that we are all familiar with today, became possible with technology. Through refrigeration, chefs could now use raw fish and could even use a more varied selection of fish due to advancements in cooking/curing methods. When refrigeration was first being adopted by the Japanese, they were viewed as ‘luxury’ and thus, sushi became to be known as a cuisine for special occasions.</p>
+		<p class="mb-4">Naturally, something so spectacular such as sushi could not be contained in one country forever. After World War 2, U.S occupation and increased global travel allowed sushi to spread all over the globe. One of the most impactful destinations was California, where sushi rolls with “rice outside” was invented.  </p>
+		<p class="mb-4">To have progressed from a poor, smelly means of survival to a sophisticated, special treat is nothing short of extraordinary. If we agree with Mr. Kimura that it is important to honor sushi by using the very best ingredients, then it should be equally important to remember the humble origins of this now luxurious cuisine. </p>
+      </div>
+
+    </article>
+  </section>
+
+  <!--Footer links and social media-->
+  <footer>
+	<div class="flex flex-col lg:flex-row items-center justify-center mx-auto max-w-screen-2xl mt-4">
+	  <div class="flex items-center">
+		<!-- Logo SVG-->
+		<a href="/">
+		  <svg width="295" height="60" viewBox="0 -10 245 50" xmlns="http://www.w3.org/2000/svg">
+			  <image x="0" y="-3" href="images/Daruma.png" class="w-2/12 h-2/12"/>
+			  <text x="50" y="20" class="text-xl font-medium">Zen Sushi & Grill</text>
+		  </svg>
+		</a>
+	  </div>
+	  <ul class="flex flex-col lg:flex-row items-center text-xl font-semibold text-gray-500 py-12 lg:py-0">
+		<li class="mx-7 hover:text-gray-700 mb-2 lg:mb-0 hover:underline">
+		  <a href="/menu.html">MENU</a>
+		</li>
+
+		<li class="mx-7 hover:text-gray-700 mb-2 lg:mb-0 hover:underline">
+		  <a href="https://www.zensushiandgrillmckinney.com/" target="_blank">PLACE AN ORDER</a>
+		</li>
+
+		<li class="mx-7 hover:text-gray-700 mb-2 lg:mb-0 hover:underline">
+		  <a href="/blog.html">BLOG</a>
+		</li>
+
+		<li class="mx-7 hover:text-gray-700 mb-2 lg:mb-0 hover:underline">
+		  <a href="/about.html">ABOUT</a>
+		</li>
+
+		<li class="mx-7 hover:text-gray-700 mb-2 lg:mb-0 hover:underline">
+		  <a href="/contact.html">CONTACT</a>
+		</li>
+	  </ul>
+	  <div class="flex text-blue-500">
+		<!-- Order Logo -->
+		<a class="hover:text-blue-700" href="https://www.zensushiandgrillmckinney.com/" target="_blank">
+		  <img class="mx-4 fill-current" width="31" height="27" src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-website-order-takeaway-wanicon-lineal-color-wanicon.png"/>
+			<title>Order Food</title>
+		</a>
+		<!-- Facebook Logo -->
+		<a class="hover:text-blue-700" href="https://www.facebook.com/ZenSushiMckinney/" target="_blank">
+		  <svg class="mx-4 fill-current" width="31" height="27" viewBox="0 0 20 20" fill="none"
+			xmlns="http://www.w3.org/2000/svg">
+			<title>Facebook</title>
+			<path
+			  d="M10 0C4.5 0 0 4.49 0 10.02C0 15.02 3.66 19.17 8.44 19.92V12.92H5.9V10.02H8.44V7.81C8.44 5.3 9.93 3.92 12.22 3.92C13.31 3.92 14.45 4.11 14.45 4.11V6.58H13.19C11.95 6.58 11.56 7.35 11.56 8.14V10.02H14.34L13.89 12.92H11.56V19.92C13.9164 19.5478 16.0622 18.3455 17.6099 16.5301C19.1576 14.7146 20.0054 12.4056 20 10.02C20 4.49 15.5 0 10 0Z" />
+		  </svg>
+		</a>
+		<!-- Instagram Logo -->
+		<a class="hover:text-blue-700" href="https://www.instagram.com/zensushiandgrill2019/?hl=en" target="_blank">
+		  <svg class="mx-4 fill-current" width="31" height="27" viewBox="0 0 20 20" fill="none"
+			xmlns="http://www.w3.org/2000/svg">
+			<title>Instagram</title>
+			<path
+			  d="M5.8 0H14.2C17.4 0 20 2.6 20 5.8V14.2C20 15.7383 19.3889 17.2135 18.3012 18.3012C17.2135 19.3889 15.7383 20 14.2 20H5.8C2.6 20 0 17.4 0 14.2V5.8C0 4.26174 0.61107 2.78649 1.69878 1.69878C2.78649 0.61107 4.26174 0 5.8 0ZM5.6 2C4.64522 2 3.72955 2.37928 3.05442 3.05442C2.37928 3.72955 2 4.64522 2 5.6V14.4C2 16.39 3.61 18 5.6 18H14.4C15.3548 18 16.2705 17.6207 16.9456 16.9456C17.6207 16.2705 18 15.3548 18 14.4V5.6C18 3.61 16.39 2 14.4 2H5.6ZM15.25 3.5C15.5815 3.5 15.8995 3.6317 16.1339 3.86612C16.3683 4.10054 16.5 4.41848 16.5 4.75C16.5 5.08152 16.3683 5.39946 16.1339 5.63388C15.8995 5.8683 15.5815 6 15.25 6C14.9185 6 14.6005 5.8683 14.3661 5.63388C14.1317 5.39946 14 5.08152 14 4.75C14 4.41848 14.1317 4.10054 14.3661 3.86612C14.6005 3.6317 14.9185 3.5 15.25 3.5ZM10 5C11.3261 5 12.5979 5.52678 13.5355 6.46447C14.4732 7.40215 15 8.67392 15 10C15 11.3261 14.4732 12.5979 13.5355 13.5355C12.5979 14.4732 11.3261 15 10 15C8.67392 15 7.40215 14.4732 6.46447 13.5355C5.52678 12.5979 5 11.3261 5 10C5 8.67392 5.52678 7.40215 6.46447 6.46447C7.40215 5.52678 8.67392 5 10 5ZM10 7C9.20435 7 8.44129 7.31607 7.87868 7.87868C7.31607 8.44129 7 9.20435 7 10C7 10.7956 7.31607 11.5587 7.87868 12.1213C8.44129 12.6839 9.20435 13 10 13C10.7956 13 11.5587 12.6839 12.1213 12.1213C12.6839 11.5587 13 10.7956 13 10C13 9.20435 12.6839 8.44129 12.1213 7.87868C11.5587 7.31607 10.7956 7 10 7Z" />
+		  </svg>
+		</a>
+	  </div>
+	</div>
+
+	<!-- Fine Print-->
+	<div class="flex flex-col items-center mt-14 text-xl text-gray-800">
+	  <div class="mb-4">
+		<a class="mx-4 hover:text-gray-600 hover:underline" href="/faqs.html" rel="nofollow">FAQs</a>
+		<a class="mx-4 hover:text-gray-600 hover:underline" href="/terms-and-conditions.html" rel="nofollow">Terms &amp;
+		  Conditions</a>
+	  </div>
+	  <span class="text-black"><strong>&copy; James Lo 2021</strong></span>
+	</div>
+  </footer>
+
+</body>
+
+<script src="js/index.js"></script>
+
+</html>
