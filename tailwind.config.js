@@ -3,9 +3,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+	  animation: {
+		fade: 'fadeOut 0.5s ease-in-out',
+	  },
       fontFamily: {
         raleway: ["Raleway"],
       },
+	  keyframes: theme => ({
+        fadeOut: {
+          '0%': { backgroundColor: theme('colors.red.300') },
+          '100%': { backgroundColor: theme('colors.transparent') },
+        },
+      }),
       spacing: {
         18: "4.5rem",
         22: "5.5rem",
