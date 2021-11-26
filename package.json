@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run build:css",
     "build:css": "npx tailwindcss-cli@latest -i ./src/styles/tailwind.css -o ./src/styles/index.css",
-    "build:prod": "NODE_ENV=production npx tailwindcss-cli@latest -i ./src/styles/tailwind.css -o ./build/styles/index.css"
+    "build:prod": "NODE_ENV=production npx tailwindcss -i ./src/styles/tailwind.css -o ./build/styles/index.css"
   },
   "keywords": [],
   "author": "",

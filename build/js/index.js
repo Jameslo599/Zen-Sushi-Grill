@@ -12,7 +12,13 @@
 
   function toggleNav() {
     navContent.classList.toggle("hidden");
-  }
+	navContent.classList.toggle("fadeIn");
+	if (navContent.classList.contains("fadeIn")) {
+		document.getElementById("nav_bar").style.marginBottom = 0;
+	} else {
+		document.getElementById("nav_bar").style.marginBottom = "0.75rem"
+	}
+  };
 
   navToggle.addEventListener("click", toggleNav);
 

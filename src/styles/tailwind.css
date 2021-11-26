@@ -192,7 +192,12 @@
   form textarea::placeholder {
     @apply text-gray-500 text-sm;
   }
-  /* #endregion */
+  /* #endregion  */
+
+  .fadeIn,
+  .fadeIn ul {
+	@apply animate-fadeIn bg-gray-800 text-white;
+  }
 
   /* #region Extra Utilities */
   /* #endregion */
