@@ -34,22 +34,3 @@
   }
   detailsArray.forEach((el) => el.addEventListener("toggle", toggleDetails));
 })();
-
-// Video Loop
-
-const myVideo = document.getElementById('sushiVideo');
-const myVideos = [
-	"./video/sushiVideo1.mp4",
-	"./video/sushiVideo2.mp4",
-	"./video/sushiVideo3.mp4"
-];
-let activeVideo = 0;
-
-myVideo.addEventListener('ended', () => {
-	// Update new active video index
-	activeVideo = (++activeVideo) % myVideos.length;
-
-	//Update video source and play
-	myVideo.src = myVideos[activeVideo];
-	myVideo.play()
-});
