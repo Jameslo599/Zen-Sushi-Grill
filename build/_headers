@@ -1,12 +1,18 @@
 /*
-  Cache-Control: public, s-max-age=86400
+  cache-control: public 
+  cache-control: s-max-age=86400
 /blog/*
-  Cache-Control: public, s-max-age=86400
+  cache-control: public 
+  cache-control: s-max-age=86400
 /images/*
-  Cache-Control: public, s-max-age=31536000
+  cache-control: public 
+  cache-control: s-max-age=31536000
 /video/*
-  Cache-Control: public, s-max-age=31536000
+  cache-control: public 
+  cache-control: s-max-age=31536000
 /styles/*.css
-  Cache-Control: public, s-max-age=604800
+  cache-control: public 
+  cache-control: s-max-age=604800
 /js/*.js
-  Cache-Control: public, s-max-age=2592000
+  cache-control: public 
+  cache-control: s-max-age=2592000
